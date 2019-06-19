@@ -5,17 +5,22 @@ layout: default
 {% for post in paginator.posts %}
   <div class="postbox">
     <div class="posttitlerow">
-      <div class="posttitle">{{ post.title }}</div>
+      <a href="{{ post.url }}" class="posttitle">{{ post.title }}</a>
       <div class="postdate">{{ post.date }}</div>
     </div>
     <div class="postdesc">{{ post.description }}</div>
   </div>
 {% endfor %}
 
-{% if paginator.previous_page %}
-  <span>Previous</span>
-{% endif %}
-
-{% if paginator.next_page %}
-  <span>Next</span>
-{% endif %}
+<div class="pagination">
+  <span>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">&larr;</a>
+    {% endif %}
+  </span>
+  <span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">&rarr;</a>
+    {% endif %}
+  </span>
+</div>

@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
-paginate: 1
+paginate: 5
 markdown: kramdown
 plugins:
   - jekyll-feed

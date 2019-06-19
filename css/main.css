@@ -21,9 +21,14 @@ a {
 }
 
 .postbox {
-  border: 1px;
-  border-style: solid none;
+  border-bottom: 1px;
+  border-bottom-style: solid;
   padding: 20px 8px;
+}
+
+.postbox:first-child {
+  border-top: 1px;
+  border-top-style: solid;
 }
 
 .posttitlerow {
@@ -39,4 +44,11 @@ a {
 
 .postdesc {
   color: #7e7e7e;
+}
+
+.pagination {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
 }
