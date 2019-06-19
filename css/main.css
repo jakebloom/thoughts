@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  padding: 25px 0;
+  font-size: 22px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.postbox {
+  border: 1px;
+  border-style: solid none;
+  padding: 20px 8px;
+}
+
+.posttitlerow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.posttitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.postdesc {
+  color: #7e7e7e;
+}

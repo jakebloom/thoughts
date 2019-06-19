@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}{{ "Thoughts" }}{% endif %} | Jake Bloom
+    </title>
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="title">
+      <a href="/">Thoughts ~ Jake Bloom</a>
+    </header>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>
