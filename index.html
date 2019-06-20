@@ -6,7 +6,7 @@ layout: default
   <div class="postbox">
     <div class="posttitlerow">
       <a href="{{ post.url }}" class="posttitle">{{ post.title }}</a>
-      <div class="postdate">{{ post.date }}</div>
+      <div class="postdate">{{ post.date | date: "%d/%m/%Y" }}</div>
     </div>
     <div class="postdesc">{{ post.description }}</div>
   </div>

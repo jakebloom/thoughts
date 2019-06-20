@@ -1,0 +1,18 @@
+---
+layout: post
+title:  What is this?
+date:   18/06/2019
+description: Hello world, again.
+---
+
+Welcome to the new version of my blog. Version one had comments, SEO,  analytics tracking scripts, the lot. This version is black text on a white background. No SEO. No analytics. No comments. Just me yelling into the void.
+
+Being honest, this project is more for me than it is for you. It is a way for me to exercise my self-expression in a way that I don't usually get to.
+
+I'm also trying to use social media platforms less, and part of that means putting my opinions where they aren't going to be liked and commented on. If you like my website, you can tell me directly.
+
+I’ll periodically post here about news, tech, and other things that interest me or that I’m thinking about. 
+
+If you’re reading this, great, if you’re not, that’s fine too. 
+
+Enjoy.
