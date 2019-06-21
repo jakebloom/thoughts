@@ -8,3 +8,11 @@ layout: default
 <div class="content">
   {{content}}
 </div>
+<script>
+  const links = document.getElementsByTagName('a');
+  for (let link of links) {
+    if (link.id !== 'title') {
+      link.target = '_blank';
+    }
+  }
+</script>
