@@ -71,3 +71,14 @@ p a {
   font-style: italic;
   text-decoration: underline;
 }
+
+blockquote {
+  font-style: italic;
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
