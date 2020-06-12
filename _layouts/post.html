@@ -15,4 +15,9 @@ layout: default
       link.target = '_blank';
     }
   }
+
+  const images = document.getElementsByTagName('img');
+  for (img of images) {
+    img.parentElement.className = 'imgContainer';
+  }
 </script>

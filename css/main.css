@@ -76,6 +76,15 @@ blockquote {
   font-style: italic;
 }
 
+img {
+  max-height: calc(50vh + 100px);
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
 @media(prefers-color-scheme: dark) {
   body {
     background-color: black;

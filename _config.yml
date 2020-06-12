@@ -17,6 +17,7 @@
 # Build settings
 paginate: 5
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
 
